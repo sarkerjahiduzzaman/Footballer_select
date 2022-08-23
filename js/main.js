@@ -96,6 +96,22 @@ document.getElementById('Calculate-total-id').addEventListener('click',function(
    const getElement2=document.getElementById('coach-price-id')
 
    //check manager and coast input is empty
+   
+   if(getElement1.value.length==' '&& getElement2.value.length== ' ')
+   {
+       alert('Plese enter number in input field')
+   }
+   else{
+       const getvalue1=getValue('manager-price-id');
+   const getvalue2=getValue('coach-price-id');
+  
+   const getvalue3=parseFloat(getStringvalue3);
+   const totalValue=getvalue1+getvalue2+getvalue3;
+   document.getElementById('Final-expence').innerText=totalValue;
+   document.getElementById('Final-expence').style.color="#ff5e19"
+
+   }
+   
 
 
 })
