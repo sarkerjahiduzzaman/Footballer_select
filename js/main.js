@@ -59,6 +59,31 @@ function getValue(inputId){
 }
 //When clicked on  calculate button 
 document.getElementById('Calculate-id').addEventListener('click',function(){
+    const element = document.getElementById("list");
+    let numb = element.childNodes.length;
+    if(numb>1)
+    {
+        const getElement=document.getElementById('player-price-id');
+
+     if(getElement.value.length==''){
+        alert('Boss! enter per player cost')
+     }
+     else{
+        const getvalue=getValue('player-price-id');
+        const total=(numb-1)*getvalue;
+       document.getElementById('total-expence').innerText=total;
+
+     }
+
+        
+     
+   
+
+    }
+    else{
+        alert('Boss! select player')
+    }
+    
    
 
 })
