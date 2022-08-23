@@ -49,3 +49,11 @@ selectedPlayerName("btn-id-6","name-6");
 selectedPlayerName("btn-id-7","name-7");
 selectedPlayerName("btn-id-8","name-8");
 selectedPlayerName("btn-id-9","name-9");
+
+//get input value using id
+function getValue(inputId){
+    const getElement=document.getElementById(inputId);
+    const getStringValue=getElement.value;
+    const getFloatValue=parseFloat(getStringValue);
+    return getFloatValue;
+}
