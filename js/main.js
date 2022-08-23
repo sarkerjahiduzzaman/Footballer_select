@@ -87,3 +87,16 @@ document.getElementById('Calculate-id').addEventListener('click',function(){
    
 
 })
+
+
+//when calculate Total btn is clicked
+document.getElementById('Calculate-total-id').addEventListener('click',function(){
+    const getStringvalue3=document.getElementById('total-expence').innerText;
+    const getElement1=document.getElementById('manager-price-id')
+   const getElement2=document.getElementById('coach-price-id')
+
+   //check manager and coast input is empty
+
+
+})
+
