@@ -38,3 +38,14 @@ function selectedPlayerName (selectedBtn , selectedName){
      })
  }
  
+
+ 
+selectedPlayerName("btn-id-1","name-1");
+selectedPlayerName("btn-id-2","name-2");
+selectedPlayerName("btn-id-3","name-3");
+selectedPlayerName("btn-id-4","name-4");
+selectedPlayerName("btn-id-5","name-5");
+selectedPlayerName("btn-id-6","name-6");
+selectedPlayerName("btn-id-7","name-7");
+selectedPlayerName("btn-id-8","name-8");
+selectedPlayerName("btn-id-9","name-9");
