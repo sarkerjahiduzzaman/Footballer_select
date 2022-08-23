@@ -57,3 +57,8 @@ function getValue(inputId){
     const getFloatValue=parseFloat(getStringValue);
     return getFloatValue;
 }
+//When clicked on  calculate button 
+document.getElementById('Calculate-id').addEventListener('click',function(){
+   
+
+})
